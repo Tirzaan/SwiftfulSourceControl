@@ -9,16 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var title: String = ""
+    @State private var title: String = "Hello"
     
     var body: some View {
         HStack {
             Text("Home Screen")
             Text("Home Screen")
-
-            Text("Home Screen")
-            Text("Home Screen")
-            Text("Home Screen")
+            Text("Home Screen1")
 
         }
     }
