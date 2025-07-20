@@ -48,6 +48,9 @@ struct ContentView: View {
             }
         }
         .padding()
+        .onAppear {
+            //send analitics
+        }
     }
 }
 
