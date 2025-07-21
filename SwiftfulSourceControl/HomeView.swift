@@ -15,6 +15,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             Text("Hi")
+            Text("Heelo")
             Text("Home Screen")
         }
     }
