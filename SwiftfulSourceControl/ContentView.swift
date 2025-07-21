@@ -50,7 +50,7 @@ struct ContentView: View {
                             .foregroundStyle(.tint)
                         Text("Imaginator!!!")
                         
-                        Button("Subscribenow") {
+                        Button("Subscribe") {
                         }
                     }
                 }
