@@ -13,10 +13,8 @@ struct HomeView: View {
     
     var body: some View {
         HStack {
+            Text("Hi")
             Text("Home Screen")
-            Text("Home Screen")
-            Text("Home Screen1")
-
         }
     }
 }
