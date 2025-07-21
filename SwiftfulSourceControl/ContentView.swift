@@ -45,15 +45,16 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
                         Text("Some New Title!")
-            
+                        
                         Button("Subscribe now!") {
+                        }
                     }
                 }
             }
-        }
-        .padding()
-        .onAppear {
-            //send analitics
+            .padding()
+            .onAppear {
+                //send analitics
+            }
         }
     }
 }
