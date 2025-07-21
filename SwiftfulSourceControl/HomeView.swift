@@ -12,7 +12,7 @@ struct HomeView: View {
     @State private var title: String = "Hello"
     
     var body: some View {
-        HStack {
+        VStack {
             Text("Hi")
             Text("Home Screen")
         }
