@@ -14,7 +14,7 @@ struct ProfileVew: View {
     var body: some View {
         Text("Tirzaan!")
             .onAppear {
-                
+                // do something here
             }
     }
 }
